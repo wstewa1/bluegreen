@@ -8,7 +8,7 @@ $deployment = getenv("COLOR");
 if ( $deployment == 'blue') {
   $color = imagecolorallocate($im, 0, 0, 255);
 } elseif ($deployment == 'green')  {
-  $color = imagecolorallocate($im, 0, 255, 0);
+  $color = imagecolorallocate($im, 0, 150, 0);
 } else {
   $color = imagecolorallocate($im, 0, 0, 255);
 }
